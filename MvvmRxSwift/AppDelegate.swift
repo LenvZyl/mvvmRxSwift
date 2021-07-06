@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  MvvmRxSwift
-//
-//  Created by Len van Zyl on 2021/07/06.
-//
 
 import UIKit
 
