@@ -19,6 +19,8 @@
 		A28DC8D12694734800F2D2A0 /* restaurant.json in Resources */ = {isa = PBXBuildFile; fileRef = A28DC8D02694734800F2D2A0 /* restaurant.json */; };
 		A28DC8D32694745700F2D2A0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28DC8D22694745700F2D2A0 /* Restaurant.swift */; };
 		A28DC8D52694751F00F2D2A0 /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28DC8D42694751F00F2D2A0 /* RestaurantService.swift */; };
+		A28DC8DA2694A86800F2D2A0 /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28DC8D92694A86800F2D2A0 /* RestaurantListViewModel.swift */; };
+		A28DC8DC2694A95A00F2D2A0 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28DC8DB2694A95A00F2D2A0 /* RestaurantViewModel.swift */; };
 		DB9B16029C43F5EAD90773BD /* Pods_MvvmRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03E1258F0B6CF34FE2C5589 /* Pods_MvvmRxSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		A28DC8D02694734800F2D2A0 /* restaurant.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = restaurant.json; sourceTree = "<group>"; };
 		A28DC8D22694745700F2D2A0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A28DC8D42694751F00F2D2A0 /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		A28DC8D92694A86800F2D2A0 /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RestaurantListViewModel.swift; path = ../../MvvmRxSwift/MvvmRxSwift/RestaurantListViewModel.swift; sourceTree = "<group>"; };
+		A28DC8DB2694A95A00F2D2A0 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 		E03E1258F0B6CF34FE2C5589 /* Pods_MvvmRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvvmRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,16 +135,19 @@
 		A28DC89D26946EA500F2D2A0 /* MvvmRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				A28DC8D82694A4D600F2D2A0 /* Coordinators */,
 				A28DC8D62694A4B200F2D2A0 /* Models */,
 				A28DC8D72694A4C200F2D2A0 /* Services */,
-				A28DC8D82694A4D600F2D2A0 /* Coordinators */,
 				A28DC89E26946EA500F2D2A0 /* AppDelegate.swift */,
+				A28DC8D92694A86800F2D2A0 /* RestaurantListViewModel.swift */,
+				A28DC8DB2694A95A00F2D2A0 /* RestaurantViewModel.swift */,
 				A28DC8A026946EA500F2D2A0 /* SceneDelegate.swift */,
 				A28DC8A226946EA500F2D2A0 /* ViewController.swift */,
 				A28DC8A426946EA500F2D2A0 /* Main.storyboard */,
 				A28DC8A726946EA900F2D2A0 /* Assets.xcassets */,
 				A28DC8A926946EA900F2D2A0 /* LaunchScreen.storyboard */,
 				A28DC8AC26946EA900F2D2A0 /* Info.plist */,
+				A28DC8D02694734800F2D2A0 /* restaurant.json */,
 			);
 			path = MvvmRxSwift;
 			sourceTree = "<group>";
@@ -166,7 +173,6 @@
 		A28DC8D62694A4B200F2D2A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A28DC8D02694734800F2D2A0 /* restaurant.json */,
 				A28DC8D22694745700F2D2A0 /* Restaurant.swift */,
 			);
 			path = Models;
@@ -364,7 +370,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A28DC8D32694745700F2D2A0 /* Restaurant.swift in Sources */,
+				A28DC8DC2694A95A00F2D2A0 /* RestaurantViewModel.swift in Sources */,
 				A28DC8CF2694704000F2D2A0 /* AppCoordinator.swift in Sources */,
+				A28DC8DA2694A86800F2D2A0 /* RestaurantListViewModel.swift in Sources */,
 				A28DC8A326946EA500F2D2A0 /* ViewController.swift in Sources */,
 				A28DC89F26946EA500F2D2A0 /* AppDelegate.swift in Sources */,
 				A28DC8D52694751F00F2D2A0 /* RestaurantService.swift in Sources */,

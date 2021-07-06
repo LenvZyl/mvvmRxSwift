@@ -1,29 +1,29 @@
 [   {
-        "name": "Name",
+        "name": "Primi",
         "cuisine": "european"
     },
     {
-        "name": "Name",
+        "name": "Rossa",
         "cuisine": "indian"
     },
     {
-        "name": "Name",
+        "name": "Addara",
         "cuisine": "mexican"
     },
     {
-        "name": "Name",
+        "name": "Flonza",
         "cuisine": "french"
     },
     {
-        "name": "Name",
+        "name": "Adagio",
         "cuisine": "english"
     },
     {
-        "name": "Name",
+        "name": "Mexi",
         "cuisine": "mexican"
     },
     {
-        "name": "Name",
+        "name": "Promoneria",
         "cuisine": "european"
     }
 ]
